@@ -279,7 +279,7 @@ section {
 }
 
 .achievement-icon img {
-  max-width: 300px;
+  max-width: 200px;
   height: 200px;
   object-fit: fill;
 }
