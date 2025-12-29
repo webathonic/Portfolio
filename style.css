@@ -98,10 +98,10 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(
-      rgba(235, 240, 235, 0.85),
-      rgba(3, 56, 18, 0.85)
+      rgba(2, 14, 2, 0.85),
+      rgba(66, 112, 9, 0.85)
     ),
-    url(/images/bg.jpg);
+    url(images/background.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -120,7 +120,7 @@ nav a:hover {
 }
 
 .hero-content h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
   line-height: 1.2;
 }
@@ -272,8 +272,16 @@ section {
 }
 
 .achievement-icon {
-  font-size: 3rem;
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.achievement-icon img {
+  max-width: 300px;
+  height: 200px;
+  object-fit: fill;
 }
 
 .achievement-card h3 {
